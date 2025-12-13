@@ -1,25 +1,18 @@
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-
-import Hero from "./sections/Hero";
+import HeroLayout from "./sections/HeroLayout";
 import Events from "./sections/Events";
-import WhyUs from "./sections/WhyUs";
 import HowItWorks from "./sections/HowItWorks";
+import AddOns from "./sections/AddOns";
 import LeadForm from "./sections/LeadForm";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Navbar />
-
-      <main className="pt-16">
-        <Hero />
-        <Events />
-        <WhyUs />
-        <HowItWorks />
-        <LeadForm />
-      </main>
-
+      <HeroLayout />
+      <Events />
+      <HowItWorks />
+      <AddOns />
+      <LeadForm />
       <Footer />
     </>
   );
