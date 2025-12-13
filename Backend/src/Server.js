@@ -6,6 +6,7 @@ async function start() {
   try {
     await mongoose.connect(config.mongoUri);
     console.log('MongoDB connected');
+    const PORT = process.env.PORT || config.port || 3000;
 
     const server = app.listen(config.port, () => {
       console.log(`Server listening on port ${config.port} in ${config.nodeEnv} mode`);
