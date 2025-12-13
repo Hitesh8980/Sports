@@ -5,7 +5,7 @@ module.exports = {
       title: "IPL Final 2025",
       startDate: "2025-05-26",
       endDate: "2025-05-26",
-      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9zrJ6yNvTvqR1s_1qaPPjR7FWT4VzE4SGhQ&s",
+      imageUrl: "/images/ipl.jpg",
       description: "The biggest cricket final of IPL season."
     },
     {
@@ -13,7 +13,7 @@ module.exports = {
       title: "Wimbledon Finals 2025",
       startDate: "2025-07-14",
       endDate: "2025-07-15",
-      imageUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjkG7WSAY0hABGnnCdReiG9-0IU9DUYb5Kpw&s", 
+      imageUrl:"/images/images.jpg", 
       description: "Grand slam tennis finals in London."
     },
     {
@@ -21,7 +21,7 @@ module.exports = {
       title: "F1 Abu Dhabi GP 2025",
       startDate: "2025-12-07",
       endDate: "2025-12-07",
-      imageUrl: "https://akm-img-a-in.tosshub.com/indiatoday/images/breaking_news/202512/abu-dhabi-gp-073024583-1x1.jpg?VersionId=42oQBeoQJGPW7Zgd0JHuMhboc7jZsbIR",
+      imageUrl: "/images/f1.jpg",
       description: "Final race of the Formula 1 2025 season."
     }
   ],
