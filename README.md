@@ -11,12 +11,16 @@ Built as part of a **Founding Engineer Assignment**, focusing on clean architect
 Frontend (React + Vite)
 
 |
-| REST APIs
+
+| 
+REST APIs
 
 |
+
 Backend (Node.js + Express)
 
 |
+
 |
 MongoDB
 
