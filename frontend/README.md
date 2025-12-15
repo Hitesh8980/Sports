@@ -1,66 +1,16 @@
-# Sports Travel Platform – Frontend
+# React + Vite
 
-This is the frontend application for the **Sports Travel Platform**, a web app that allows users to explore upcoming sports events, view travel packages, and request custom quotes.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The frontend is built with modern React tooling and communicates with a Node.js + Express backend via REST APIs.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🚀 Tech Stack
+## React Compiler
 
-- **React (Vite)**
-- **JavaScript (ES6+)**
-- **Tailwind CSS**
-- **Fetch API**
-- **Vercel / Netlify (Deployment)**
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## ✨ Features
-
-- Hero section with featured sports event
-- Upcoming events grid with dynamic data
-- Event packages toggle (expand/collapse)
-- Quote request form
-- Fully responsive design
-- Optimized image rendering from backend
-- Clean UI with Tailwind utility classes
-
----
-## 🔌 Environment Variables
-
-Create a `.env` file in the `frontend` folder:
-
-        env
-       VITE_API_BASE_URL=https://your-backend-url.com
-
-##  ▶️ Running Locally
-
-        cd frontend
-        npm install
-        npm run dev
-        
-  The app will be available at: 
-   
-       http://localhost:5173
-       
-## 🔗 Backend Integration
-
- - The frontend consumes the following backend endpoints:
-
- - GET /api/events
-
- - GET /api/events/:eventId/packages
-
- - POST /api/leads
-
- - Static images served from /images/*
-
-## 📦 Deployment
-
-The frontend can be deployed using:
-
- - Vercel (Recommended)
-
-- -Netlify
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
